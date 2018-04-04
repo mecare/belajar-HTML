@@ -1,0 +1,66 @@
+<html>
+        <head>
+            <title>Register</title>
+            <h2>pengisian form</h2>
+            <div>
+                    <a href="../Review.html">Home</a>
+                    <a href="kontak.html">Kontak</a>
+                    <a href="form.html">Register</a>
+                    <br>
+                    <br>
+            </div>
+        </head>
+       
+        <body>
+        <div>
+            <form>
+                <fieldset>
+                    <legend><b>Data umum</b></legend>
+                    <label for="nama">Nama</label>
+                    <input type="text" placeholder="nama anda" id="nama">
+                    <br>
+                    <label for="alamat">Alamat</label>
+                    <br>
+                    <textarea name="alamat" id="alamat" cols="50" rows="5"></textarea>
+        
+                    <!--checkbox-->
+                    <br>
+                    <br>
+                    <label ><b>Hobby</b></label> <br>
+                        <input type="checkbox" name="hobi_user" value="0">programing <br>
+                        <input type="checkbox" name="hobi_user" value="1">konfigurasi jaringan <br>
+                        <input type="checkbox" name="hobi_user" value="2">desain <br>
+                        <br>
+                    <!--radio bottum-->
+                </fieldset>
+
+
+                <fieldset>
+                    <legend><b>Jurusan dan Mata Kuliah</b></legend>
+                <label ><b>jurusan</b></label> <br>
+                    <input type="radio" name="jurusan" value="0">RPL <br>
+                    <input type="radio" name="jurusan" value="1">jaringan <br>
+                    <input type="radio" name="jurusan" value="2">multimedia <br>
+                    <!--selec option-->
+                <label><b>mata Kuliah</b></label>
+                    <select>
+                        <optgroup label="Multimedia">
+                            <option value="d2d">desain 2 dimensi </option>
+                            <option value="d3d">desain 3 dimensi </option>
+                        </optgroup>
+                        <optgroup label="RPL">
+                            <option value="alpro">algoritma </option>
+                            <option value="db">databases</option>
+                        </optgroup>
+                        <optgroup label="Jaringan">
+                            <option value="komdat">Komunikasi data </option>
+                            <option value="jr">jaringan</option>
+                    </optgroup>
+                     </select>
+                </fieldset>
+                <input type="submit" value="Simpan">
+            </form>
+            
+        </div>
+        </body>
+    </html>
